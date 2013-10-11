@@ -19,6 +19,7 @@
 		E926E61D180733E10053C1B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E926E61B180733E10053C1B0 /* InfoPlist.strings */; };
 		E926E61F180733E10053C1B0 /* Kase_KonvertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E926E61E180733E10053C1B0 /* Kase_KonvertTests.m */; };
 		E98AEF11180839F2002647B7 /* KKConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AEF10180839F2002647B7 /* KKConverter.m */; };
+		E98AEF1318083E78002647B7 /* screeenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = E98AEF1218083E78002647B7 /* screeenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E926E61E180733E10053C1B0 /* Kase_KonvertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kase_KonvertTests.m; sourceTree = "<group>"; };
 		E98AEF0F180839F2002647B7 /* KKConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKConverter.h; sourceTree = "<group>"; };
 		E98AEF10180839F2002647B7 /* KKConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKConverter.m; sourceTree = "<group>"; };
+		E98AEF1218083E78002647B7 /* screeenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screeenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				E98AEF0F180839F2002647B7 /* KKConverter.h */,
 				E98AEF10180839F2002647B7 /* KKConverter.m */,
 				E926E609180733E10053C1B0 /* MainMenu.xib */,
+				E98AEF1218083E78002647B7 /* screeenshot.png */,
 				E926E60C180733E10053C1B0 /* Images.xcassets */,
 				E926E5FB180733E10053C1B0 /* Supporting Files */,
 			);
@@ -240,6 +243,7 @@
 				E926E60D180733E10053C1B0 /* Images.xcassets in Resources */,
 				E926E605180733E10053C1B0 /* Credits.rtf in Resources */,
 				E926E60B180733E10053C1B0 /* MainMenu.xib in Resources */,
+				E98AEF1318083E78002647B7 /* screeenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
