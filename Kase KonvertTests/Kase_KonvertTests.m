@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "KKConverter.h"
 
 @interface Kase_KonvertTests : XCTestCase
 
@@ -26,9 +27,26 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testCamelCase
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSString * inString = @"hello world";
+    NSString * outString = [KKConverter CamelCaseString:inString];
+    XCTAssertTrue([outString isEqualToString:@"HelloWorld"], @"string should have been camel cased");
+}
+
+
+- (void)testTitleCase
+{
+    NSString * inString = @"hello world";
+    NSString * outString = [KKConverter TitleCaseString:inString];
+    XCTAssertTrue([outString isEqualToString:@"Hello World"], @"string should have been title cased");
+}
+
+- (void)testSentenceCase
+{
+    NSString * inString = @"hello world. i sure like being inside this fancy computer. goodbye.";
+    NSString * outString = [KKConverter SentenceCaseString:inString];
+    XCTAssertTrue([outString isEqualToString:@"Hello world. I sure like being inside this fancy computer. Goodbye."], @"string should have been sentence cased");
 }
 
 @end

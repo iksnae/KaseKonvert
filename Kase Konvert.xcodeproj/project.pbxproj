@@ -18,6 +18,7 @@
 		E926E615180733E10053C1B0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E926E5F4180733E10053C1B0 /* Cocoa.framework */; };
 		E926E61D180733E10053C1B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E926E61B180733E10053C1B0 /* InfoPlist.strings */; };
 		E926E61F180733E10053C1B0 /* Kase_KonvertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E926E61E180733E10053C1B0 /* Kase_KonvertTests.m */; };
+		E98AEF11180839F2002647B7 /* KKConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AEF10180839F2002647B7 /* KKConverter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		E926E61A180733E10053C1B0 /* Kase KonvertTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kase KonvertTests-Info.plist"; sourceTree = "<group>"; };
 		E926E61C180733E10053C1B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E926E61E180733E10053C1B0 /* Kase_KonvertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kase_KonvertTests.m; sourceTree = "<group>"; };
+		E98AEF0F180839F2002647B7 /* KKConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKConverter.h; sourceTree = "<group>"; };
+		E98AEF10180839F2002647B7 /* KKConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKConverter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				E926E606180733E10053C1B0 /* KKAppDelegate.h */,
 				E926E607180733E10053C1B0 /* KKAppDelegate.m */,
+				E98AEF0F180839F2002647B7 /* KKConverter.h */,
+				E98AEF10180839F2002647B7 /* KKConverter.m */,
 				E926E609180733E10053C1B0 /* MainMenu.xib */,
 				E926E60C180733E10053C1B0 /* Images.xcassets */,
 				E926E5FB180733E10053C1B0 /* Supporting Files */,
@@ -255,6 +260,7 @@
 			files = (
 				E926E608180733E10053C1B0 /* KKAppDelegate.m in Sources */,
 				E926E601180733E10053C1B0 /* main.m in Sources */,
+				E98AEF11180839F2002647B7 /* KKConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +471,7 @@
 				E926E624180733E10053C1B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E926E625180733E10053C1B0 /* Build configuration list for PBXNativeTarget "Kase KonvertTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +480,7 @@
 				E926E627180733E10053C1B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
